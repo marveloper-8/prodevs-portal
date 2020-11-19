@@ -88,3 +88,179 @@
 .container .signin-body .form-container form button:hover{
     background:#2186eb;
 }
+
+/* breakkkk */
+/* breakkkk */
+
+/* tablet version */
+@media screen and (max-width:1024px){
+    /* signin body */
+    .container .signin-body{
+        padding:70px 0;
+    }
+    /* form container */
+    .container .signin-body .form-container{
+        border: 1px solid #E4E7EB;
+        border-radius:8px;
+        margin:auto;
+        background:#fff;
+        padding:48px 0;
+        width:800px;
+        display:relative;
+    }
+    .container .signin-body .form-container .header{
+        display:grid;
+        grid-template-columns:1.5fr 1fr;
+        padding:0 42px 16px 42px;
+        border-bottom:1px solid #cbd2d9;
+    }
+    .container .signin-body .form-container .header .title{
+        font-size:32px;
+        font-weight:400;
+        color:#000;
+        padding-bottom:8px;
+    }
+    .container .signin-body .form-container .header .left{
+        display:block;
+        text-align:left;
+        font-size:14px;
+        color:#616e7c;
+    }
+    .container .signin-body .form-container .header .right{
+        text-align:right;
+        display:block;
+        font-size:14px;
+    }
+    .container .signin-body .form-container form{
+        padding:27px 42px;
+        position:relative;
+    }
+    .container .signin-body .form-container form label{
+        font-size:14px;
+        text-align:left;
+    }
+    .container .signin-body .form-container form input[type="email"],
+    .container .signin-body .form-container form input[type="password"]{
+        display:block;
+        margin:8px 0 24px 0;
+        font-size:16px;
+        padding:17px 16px;
+        border:1px solid #cbd2d9;
+        border-radius:3px;
+        outline:none;
+        transition:.5s ease-in-out all;
+        width:92.5%;
+    }
+    .container .signin-body .form-container form input[type="email"]:focus,
+    .container .signin-body .form-container form input[type="password"]:focus{
+        border:1px solid #2186eb;
+        transition:.5s ease-in-out all;
+    }
+    .container .signin-body .form-container form .extras{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        padding:0;
+        margin-bottom:35px;
+        font-size:14px;
+        color:#616e7c;
+    }
+    .container .signin-body .form-container form .extras .right{
+        text-align:right;
+        display:block;
+    }
+    .container .signin-body .form-container form button{
+        text-align:center;
+        width:100%;
+        padding:16px 0;
+        font-size:14px;
+        background:#0967D2;
+        border-radius:3px;
+        text-align:center;
+        border:none;
+        color:#fff;
+        cursor:pointer;
+    }
+    .container .signin-body .form-container form button:hover{
+        background:#2186eb;
+    }
+}
+
+/* breakkkk */
+/* breakkkk */
+
+/* mobile version */
+@media screen and (max-width:600px){
+    /* signin body */
+    .container .signin-body{
+        padding:20px 0;
+    }
+    /* form container */
+    .container .signin-body .form-container{
+        border: 1px solid #E4E7EB;
+        border-radius:8px;
+        margin:auto;
+        background:#fff;
+        padding:20px 0;
+        width:90%;
+        display:relative;
+    }
+    .container .signin-body .form-container .header{
+        padding:0 20px 16px 20px;
+        border-bottom:1px solid #cbd2d9;
+        font-size:14px;
+        color:#616e7c;
+    }
+    .container .signin-body .form-container .header .title{
+        font-size:25px;
+        font-weight:400;
+        color:#000;
+        padding-bottom:8px;
+    }
+    /* form */
+    .container .signin-body .form-container form{
+        padding:27px 20px;
+        position:relative;
+    }
+    .container .signin-body .form-container form label{
+        font-size:14px;
+        text-align:left;
+    }
+    .container .signin-body .form-container form input[type="email"],
+    .container .signin-body .form-container form input[type="password"]{
+        display:block;
+        margin:8px 0 24px 0;
+        font-size:16px;
+        padding:17px 16px;
+        border:1px solid #cbd2d9;
+        border-radius:3px;
+        outline:none;
+        transition:.5s ease-in-out all;
+        width:92.5%;
+    }
+    .container .signin-body .form-container form input[type="email"]:focus,
+    .container .signin-body .form-container form input[type="password"]:focus{
+        border:1px solid #2186eb;
+        transition:.5s ease-in-out all;
+    }
+    .container .signin-body .form-container form .extras{
+        padding:0;
+        margin-bottom:35px;
+        font-size:14px;
+        color:#616e7c;
+    }
+    .container .signin-body .form-container form button{
+        text-align:center;
+        width:100%;
+        padding:16px 0;
+        font-size:14px;
+        background:#0967D2;
+        border-radius:3px;
+        text-align:center;
+        border:none;
+        color:#fff;
+        cursor:pointer;
+    }
+    .container .signin-body .form-container form button:hover{
+        background:#2186eb;
+    }
+}

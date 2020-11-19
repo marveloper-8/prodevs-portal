@@ -1,6 +1,4 @@
 /* container */
-body{
-}
 .container{
     width:100%;
     position:absolute;
@@ -15,4 +13,56 @@ body{
 .container .navbar{
     background:#0552B5;
     padding:15px 70px;
+}
+.container .navbar img{
+    width:100px;
+}
+
+/* breakkkk */
+/* breakkkk */
+
+/* tablet version */
+@media screen and (max-width:1024px){
+    /* container */
+    .container{
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        min-height:100vh;
+        background:#F5F7FA;
+        font-family: 'Proxima Nova', sans-serif;
+    }
+
+    /* navbar */
+    .container .navbar{
+        background:#0552B5;
+        padding:20px 70px;
+    }
+}
+
+/* breakkkk */
+/* breakkkk */
+
+/* mobile version */
+@media screen and (max-width:600px){
+    /* container */
+    .container{
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        min-height:100vh;
+        background:#F5F7FA;
+        font-family: 'Proxima Nova', sans-serif;
+    }
+
+    /* navbar */
+    .container .navbar{
+        background:#0552B5;
+        padding:15px 20px;
+    }
+    .container .navbar img{
+        width:75px;
+    }
 }
