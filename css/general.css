@@ -1,0 +1,18 @@
+/* container */
+body{
+}
+.container{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    min-height:100vh;
+    background:#F5F7FA;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+/* navbar */
+.container .navbar{
+    background:#0552B5;
+    padding:15px 70px;
+}
